@@ -1,7 +1,6 @@
 from typing import List
 
 from decorators import log_execution_time
-from utils import generate_random_array
 
 
 @log_execution_time
