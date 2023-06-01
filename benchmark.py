@@ -5,8 +5,12 @@ from sorts.quick_sort import quick_sort
 from sorts.selection_sort import selection_sort
 from utils import generate_random_array
 
-bubble_sort(generate_random_array(30000, 0, 1000))
-insertion_sort(generate_random_array(30000, 0, 1000))
-selection_sort(generate_random_array(30000, 0, 1000))
-merge_sort(generate_random_array(30000, 0, 1000))
-quick_sort(generate_random_array(30000, 0, 1000))
+ARRAY_SIZE = 30000
+MIN_VALUE = 0
+MAX_VALUE = 1000
+
+bubble_sort(generate_random_array(ARRAY_SIZE, MIN_VALUE, MAX_VALUE))
+insertion_sort(generate_random_array(ARRAY_SIZE, MIN_VALUE, MAX_VALUE))
+selection_sort(generate_random_array(ARRAY_SIZE, MIN_VALUE, MAX_VALUE))
+merge_sort(generate_random_array(ARRAY_SIZE, MIN_VALUE, MAX_VALUE))
+quick_sort(generate_random_array(ARRAY_SIZE, MIN_VALUE, MAX_VALUE))
