@@ -14,3 +14,4 @@ def bubble_sort(arr: List[int]):
             # Swap if the element found is greater than the next element
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr

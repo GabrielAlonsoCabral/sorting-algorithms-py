@@ -17,3 +17,5 @@ def selection_sort(arr: List[int]):
 
         # Swap the minimum element with the current element
         arr[i], arr[min_index] = arr[min_index], arr[i]
+
+    return arr

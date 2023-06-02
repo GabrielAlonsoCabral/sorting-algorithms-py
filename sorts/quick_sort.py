@@ -5,7 +5,7 @@ from decorators import log_execution_time
 
 @log_execution_time
 def quick_sort(arr: List[int]):
-    quick_sort_no_execution_time(arr, 0, len(arr)-1)
+    return quick_sort_no_execution_time(arr, 0, len(arr)-1)
 
 
 def quick_sort_no_execution_time(arr: List[int], low: int, high: int):

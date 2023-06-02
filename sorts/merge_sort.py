@@ -5,7 +5,7 @@ from decorators import log_execution_time
 
 @log_execution_time
 def merge_sort(arr: List[int]):
-    merge_sort_without_log(arr=arr)
+    return merge_sort_without_log(arr=arr)
 
 
 def merge_sort_without_log(arr):

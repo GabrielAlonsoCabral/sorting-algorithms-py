@@ -15,3 +15,5 @@ def insertion_sort(arr: List[int]):
             arr[j + 1], j = arr[j], j-1
 
         arr[j + 1] = key
+
+    return arr
